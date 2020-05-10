@@ -4,7 +4,7 @@
   margin: 0;
   font-size: 16px;
   scroll-behavior: smooth;
-  
+
 }
 
 body {
@@ -150,7 +150,7 @@ li.nav-item {
 .logo:hover,
 .about:hover,
 .project:hover,
-.motion:hover {
+.work:hover {
   color: #5260FF;
 }
 
@@ -224,57 +224,14 @@ a.btn-hero {
 
 }
 
-/*
-
-.mail-icon {
-  color: #fff;
-  margin-left: 15px;
-
-}
-
-.btn-hero:hover .mail-icon {
-  animation: shake 0.60s cubic-bezier(.36, .07, .19, .97) both;
-  transform: translate3d(0, 0, 0);
-}
-
-@keyframes shake {
-
-  10%,
-  90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-
-  20%,
-  80% {
-    transform: translate3d(1px, 0, 0);
-  }
-
-  30%,
-  50%,
-  70% {
-    transform: translate3d(-3px, 0, 0);
-  }
-
-  40%,
-  60% {
-    transform: translate3d(3px, 0, 0);
-  }
-}
-
-
-/* button */
-
-/* hero end */
-
-
-
 /* section about/bullet_pros */
 
 
 .bullet_pros_article_subtitle {
   font-size: 1rem;
   font-weight: 400;
-  color: #767676;;
+  color: #767676;
+  ;
   margin-bottom: 2.5rem;
 }
 
@@ -299,15 +256,15 @@ a.btn-hero {
 .bullet_pros_article {
   position: relative;
   counter-reset: h4;
-  /* Ustawienie licznika na 0 */
+  /* set counter 0 */
 }
 
 h4::before {
   position: absolute;
   content: counter(h4);
-  /* Wyświetla licznik */
+  /* show counter */
   counter-increment: h4;
-  /* Zwiększa licznik */
+  /* increase counter */
   border: 1px solid #333333;
   width: 45px;
   height: 45px;
@@ -593,20 +550,20 @@ h3::before {
 
 
 
-/* motiondesign */
-.animation {
+/* work-shot design */
+.work {
   max-width: 1300px;
   margin: 0 auto;
   margin-bottom: 15vh;
   padding: 0 3rem;
 }
 
-.animation-wrapper {
+.work-wrapper {
   margin-bottom: 2vh;
 
 }
 
-.animation-gallery {
+.work-gallery {
   width: 100%;
   max-width: 1200px;
   display: flex;
@@ -698,7 +655,7 @@ footer {
 }
 
 .footer-sm {
-margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 a.email,
@@ -709,7 +666,7 @@ a.dribbble {
   text-decoration: none;
   line-height: 150%;
   font-weight: 400;
-  color:#595959;
+  color: #595959;
 
 }
 
@@ -777,7 +734,7 @@ a.dribbble {
   .image-hero {
     display: none;
   }
-  
+
 
   .bullet_pros {
     margin-bottom: 10vh;
@@ -785,12 +742,12 @@ a.dribbble {
 
   .bullet_pros_article {
     margin: 0 3rem;
-   
+
 
   }
 
   .bullet_pros-img {
-   flex: 0;
+    flex: 0;
     margin-right: 3rem;
   }
 
@@ -879,7 +836,7 @@ a.dribbble {
 
 
 
-  .animation {
+  .work {
     padding: 3rem 3rem;
   }
 
