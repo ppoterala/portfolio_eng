@@ -149,8 +149,8 @@ li.nav-item {
 
 .logo:hover,
 .about:hover,
-.project:hover,
-.work:hover {
+.case-study:hover,
+.projects:hover {
   color: #5260FF;
 }
 
